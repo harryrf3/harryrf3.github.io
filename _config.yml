@@ -1,10 +1,10 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+title: Dev Logs
+description: A collection of logs about learning and code.
+author: Harry Fahringer
+github: https://github.com/harryrf3
+about: I'm a lover of learning. Currently working on mastering skills in Web Development.
+disqus_shortname: devlogs
+google_analytics: UA-222285238-2
 
 enableTags: true
 tagarray: []
@@ -15,20 +15,20 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+#    - icon: fa-facebook
+#      link: "#"
+   - icon: fa-twitter
+     link: "#https://twitter.com/harryrf3"
+#    - icon: fa-linkedin
+#      link: "#"
+#    - icon: fa-stack-exchange
+#      link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/harryrf3"
 
 share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+  twitter_username: harryrf3
+#  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
@@ -38,7 +38,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://harryrf3.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
