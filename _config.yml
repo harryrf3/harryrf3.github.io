@@ -1,8 +1,8 @@
 title: Dev Logs
-description: A collection of logs about learning and code.
+description: My collection of logs about learning and code.
 author: Harry Fahringer
 github: https://github.com/harryrf3
-about: I'm a lover of learning. Currently working on mastering skills in Web Development.
+about: <i>“I have no special talent. I am only passionately curious.”</i> <br/> &#8212 Albert Einstein
 disqus_shortname: devlogs
 google_analytics: UA-222285238-2
 
@@ -16,15 +16,15 @@ collections:
 
 social:
 #    - icon: fa-facebook
-#      link: "#"
-   - icon: fa-twitter
-     link: "#https://twitter.com/harryrf3"
+#  link: "#"
+  - icon: fa-twitter
+    link: "https://twitter.com/harryrf3"
 #    - icon: fa-linkedin
 #      link: "#"
 #    - icon: fa-stack-exchange
 #      link: "#"
-    - icon: fa-github
-      link: "https://github.com/harryrf3"
+  - icon: fa-github
+    link: "https://github.com/harryrf3"
 
 share:
   twitter_username: harryrf3
