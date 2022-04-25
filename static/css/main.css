@@ -10,9 +10,9 @@ body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background: url(/static/img/dark_dotted2.png) fixed;
   line-height: 1.5em;
-  font-weight: 300; 
+  font-weight: 300;
   font-size: 16px;
-  color: #969394;
+  color: #DADADA;
 }
 
 hr {
@@ -24,13 +24,13 @@ hr {
 }
 
 span.time, span.categories {
-  color: #ADADAD;
+  /* color: #DADADA; */
   margin-bottom: 5px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 h1, h2, h3 {
-  color: #DDD;
+  /* color: #DDD; */
   font-weight: normal;
 }
 
@@ -45,7 +45,7 @@ h2, h3 {
 
 a, a:link, a:active {
   text-decoration: none;
-  color: #4fd8eb;
+  color: #428bca;
 }
 
 a:hover {
@@ -56,8 +56,7 @@ a:hover {
 
 /* Layout */
 .main-layout {
-  background: #111;
-  min-height: 100vh;
+  background: #0f0f0f;
 }
 
 .sidebar-nav {
@@ -95,7 +94,7 @@ footer {
   margin-bottom: 3em;
   padding-top: 10px;
   color: #C2C2C2;
-  font-size: 11px;
+  font-size: 12px;
   bottom: 0;
   padding-bottom: 10px;
 }
@@ -157,6 +156,7 @@ div.col-sm-3 div.profile-about {
 
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
   color: #969394;
+  /* color: #4fd8eb; */
   background-color: #4fd8eb;
   border-color: #333;
 }
