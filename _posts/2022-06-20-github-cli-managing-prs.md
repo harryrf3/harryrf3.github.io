@@ -26,10 +26,14 @@ The following responses are color-coded:
 - <span style="color: purple">**Merged**</span>
 - <span style="color: red">**Deleted**</span>
 
+<br/>
+
 List all open pull requests
 ```bash
 $ gh pr list
 ```
+
+<br/>
 
 To view *all* pull requests (*past and present*)
 ```bash
@@ -40,10 +44,14 @@ gh pr list --state "all"
 gh pr list -s "all"
 ```
 
+<br/>
+
 List assigned pull requests by user
 ```bash
 gh pr list --assignee 'harryrf3'
 ```
+
+<br/>
 
 Check pull request status
 ```bash
@@ -55,6 +63,8 @@ gh pr status
 #  Requesting a code review from you
 ```
 
+<br/>
+
 List closed pull requests
 ```bash
 gh pr list --state 'closed'
@@ -63,6 +73,8 @@ gh pr list --state 'closed'
 
 gh pr list -s 'closed'
 ```
+
+<br/>
 
 List labeled pull requests
 ```bash
@@ -73,13 +85,16 @@ gh pr list --label 'bug'
 gh pr list -l 'bug'
 ```
 
+<br/>
+
 Open pull requests from command line
 ```bash
 # reference pr by number, branch, or url
 
 gh pr view '3'
-
 ```
+
+<br/>
 
 Create pull request for current branch
 ```bash
@@ -88,6 +103,8 @@ Create pull request for current branch
 gh pr create -t 'TITLE' -b 'BODY'
 ```
 
+<br/>
+
 Create pull request from browser
 ```bash
 # when running into issues with the cli
@@ -95,12 +112,16 @@ Create pull request from browser
 gh pr create --web
 ```
 
+<br/>
+
 Checkout branch for pull request
 ```bash
 # checks out branch pull request is on
 
 gh pr checkout '14'
 ```
+
+<br/>
 
 Command line aliases for command line pull requests management
 ```bash
