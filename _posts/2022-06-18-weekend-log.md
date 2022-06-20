@@ -15,6 +15,3 @@ image: Broadcast_Mail.png
 
 # Weekend Log
 
-
-
-
