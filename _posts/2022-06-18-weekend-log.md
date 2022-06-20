@@ -1,17 +1,20 @@
 ---
-# (require) default post layout
+# (required) default post layout
 layout: post
 # (require) a string title
-title: "Your Title"
+title: "Weekend Log"
 # (require) a post date
-date: 2016-04-20 19:51:02 +0700
+date: 2022-06-18 19:34:56 -05:00
 # (custom) some categories, but makesure these categories already exists inside path of `category/`
-categories: [javascript]
+categories: [weekend-log]
 # (custom) tags only for meta `property="article:tag"`
-tags: [foo, bar]
+tags: [weekend log, june 2022]
 # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
+image: Broadcast_Mail.png
 ---
 
-# TYPE hblog
+# Weekend Log
 
-# your content post with markdown syntax goes here...
+
+
+
