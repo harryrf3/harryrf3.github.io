@@ -98,9 +98,7 @@ gh pr view '3'
 
 Create pull request for current branch
 ```sh
-# shortened
-
-gh pr create -t 'TITLE' -b 'BODY'
+gh pr create -t 'PR_TITLE' -b 'PR_DESC_BODY'
 ```
 
 <br/>
@@ -118,7 +116,7 @@ Checkout branch for pull request
 ```sh
 # checks out branch pull request is on
 
-gh pr checkout '14'
+gh pr checkout 'PR_#'
 ```
 
 <br/>
@@ -136,5 +134,23 @@ alias listmyprs='gh pr list -a "harryrf3"'
 
 <br/>
 
+Lastly, if you own or are a core contributor for a repository, you can merge your own pull requests.
+
+Merge a pull request
+```sh
+gh pr merge 'PR_#'
+
+# Responses:
+#   What merge method...? Create a merge commit
+#   Delete the branch...? Yes
+#   What's next? Submit
+
+# append with --admin flag if merge is refused
+```
+
+<br/>
+
 > references: <br/>
 > [goobar](https://www.youtube.com/watch?v=Ku9_0Mftiic) - Use GitHub CLI For Command Line Pull Request Management 
+> $ gh pr --help
+> [rietta.com](https://rietta.com/blog/github-merge-types/) - What's the Difference Between the 3 Github Merge Methods?
