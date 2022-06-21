@@ -75,7 +75,7 @@ a:hover {
 
 .sidebar-nav li {
   margin: 0;
-  list-style: none;
+  list-style: none; 
 }
 
 .sidebar-nav li::before {
