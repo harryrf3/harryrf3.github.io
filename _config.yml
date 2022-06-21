@@ -33,8 +33,9 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
+#    To be later reinstated...
+#    - text: My Projects
+#      url: /projects/
     - text: XML Feed
       url: /feed.xml
 
