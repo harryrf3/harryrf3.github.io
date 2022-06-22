@@ -150,7 +150,10 @@ gh pr merge 'PR_#'
 
 <br/>
 
-> references: <br/>
-> [goobar](https://www.youtube.com/watch?v=Ku9_0Mftiic) - Use GitHub CLI For Command Line Pull Request Management 
-> $ gh pr --help
+> REFERENCES<br/>
+><br/>
+> [goobar](https://www.youtube.com/watch?v=Ku9_0Mftiic) - Use GitHub CLI For Command Line Pull Request Management <br/>
+>
+> $ **gh pr --help** <br/>
+>
 > [rietta.com](https://rietta.com/blog/github-merge-types/) - What's the Difference Between the 3 Github Merge Methods?
